@@ -23,6 +23,9 @@
     },
     "plugins": [
       "expo-image"
-    ]
+    ],
+    "experiments": {
+      "baseUrl": "/carrental-app"
+    }
   }
 }
