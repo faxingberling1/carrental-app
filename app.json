@@ -10,6 +10,8 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.veloce.carrental",
+      "versionCode": 1,
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/android-icon-foreground.png",
@@ -26,6 +28,12 @@
     ],
     "experiments": {
       "baseUrl": "/carrental-app"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a61c18df-1c10-46a6-b0a6-554c95438812"
+      }
+    },
+    "owner": "alex.murphy110"
   }
 }
