@@ -38,7 +38,7 @@ jobs:
 
       - name: Build Web Application
         env:
-          EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY: ${{ secrets.EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY || 'pk_test_d2FudGVkLW1hZ2dvdC02MC5jbGVyay5hY2NvdW50cy5kZXYk' }}
+          EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY: ${{ secrets.EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY || 'pk_test_bm92ZWwtYmVhci01ODk1LmNsZXJrLmFjY291bnRzLmRldiQ' }}
         run: npm run build:web
 
       - name: Upload Pages Artifact
